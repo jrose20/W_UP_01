@@ -47,6 +47,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 boxplot(pushups~position,data=mydata)
 ```
 
+The skilled players exhibit a much higher average number of pushups in comparison to the line players. We see this here in the box and whisker plot as it shows the median for the line players at about 18 pushups. The median for the the skilled players stands around the number 50, which is much more significant than that of the line players. 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -68,7 +70,7 @@ t.test(pushups~position,data=mydata)
 ```
 
 
-p=.000009421
+p=9.421
 
 # Discussion and Conclusion
 
